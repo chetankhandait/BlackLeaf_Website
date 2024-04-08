@@ -4,15 +4,17 @@ import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 import ProductList from "./Components/ProductList";
 import Stat from "./Components/Stat";
+import CardDisplay from "./Components/CardDisplay";
 
 const App = () => {
   return (
-    <div className="">
+    <div className="bg-black">
       {/* <h3 className="bg-blue-400 p-3">hi this chetan</h3> */}
       <Navbar />
       <Hero />
       <ProductList />
       <Stat />
+      <CardDisplay />
       <Footer />
     </div>
   );
