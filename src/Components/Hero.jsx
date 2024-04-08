@@ -13,7 +13,7 @@ function Hero() {
       setCurrentImageIndex(
         (prevIndex) => (prevIndex + 1) % backgroundImages.length
       );
-    }, 5000); // Change background image every 5 seconds (adjust as needed)
+    }, 3000); // Change background image every 5 seconds (adjust as needed)
 
     return () => clearInterval(intervalId);
   }, [backgroundImages]);
