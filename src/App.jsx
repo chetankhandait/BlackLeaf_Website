@@ -3,6 +3,7 @@ import Hero from "./Components/Hero";
 import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 import ProductList from "./Components/ProductList";
+import ProductDescription  from "./Components/ProductDescription";
 import Stat from "./Components/Stat";
 
 const App = () => {
