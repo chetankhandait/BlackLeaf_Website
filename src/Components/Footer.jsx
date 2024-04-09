@@ -12,7 +12,7 @@ import {
 
 function Footer() {
   return (
-    <div className=" bg-black pt-9 font-sans">
+    <div className="mt-16 bg-black pt-9 font-sans">
       <div className="text-white text-wrap from-neutral-600  text-3xl sm:text-6xl ml-4 flex items-center justify-center w-full max-w-[1166px]">
         {" "}
         <h1>Together we find your dream home</h1>

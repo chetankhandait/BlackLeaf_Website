@@ -5,6 +5,9 @@ import Navbar from "./Components/Navbar";
 import ProductList from "./Components/ProductList";
 import Stat from "./Components/Stat";
 import CardDisplay from "./Components/CardDisplay";
+import ContactForm from "./Components/ContactForm";
+import LocationSection from "./Components/LocationSection";
+import ProductDescription from "./Components/ProductDescription";
 
 const App = () => {
   return (
