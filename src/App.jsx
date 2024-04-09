@@ -4,8 +4,6 @@ import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 import ProductList from "./Components/ProductList";
 import Stat from "./Components/Stat";
-import ProductDescription from "./Components/ProductDescription";
-import CardDisplay from "./Components/CardDisplay";
 
 const App = () => {
   return (
@@ -14,9 +12,9 @@ const App = () => {
       <Navbar />
       <Hero />
       <ProductList />
-      <ProductDescription/>
+      <ProductDescription />
       <Stat />
-      <CardDisplay/>
+      <CardDisplay />
       <Footer />
     </div>
   );
