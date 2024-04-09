@@ -1,23 +1,16 @@
 import React from "react";
-import Hero from "./Components/Hero";
-import Footer from "./Components/Footer";
-import Navbar from "./Components/Navbar";
-import ProductList from "./Components/ProductList";
-import ProductDescription  from "./Components/ProductDescription";
-import Stat from "./Components/Stat";
+import {BrowserRouter,Routes,Route} from 'react-router-dom'
+import Home from "./Components/Home";
+import LocationSection from "./Components/LocationSection";
 
 const App = () => {
   return (
-    <div className="bg-black">
-      {/* <h3 className="bg-blue-400 p-3">hi this chetan</h3> */}
-      <Navbar />
-      <Hero />
-      <ProductList />
-      <ProductDescription />
-      <Stat />
-      <CardDisplay />
-      <Footer />
-    </div>
+      <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/sepratepage" element={<LocationSection/>}/>
+      </Routes>
+      </BrowserRouter>   
   );
 };
 
