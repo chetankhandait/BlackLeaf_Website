@@ -418,7 +418,7 @@ function Card({ imageSrc, altText, category, title, description, price }) {
         </a>
       </div>
       <div className=" py-4 flex flex-row items-center">
-        <a className="text-white bg-transparent border border-white px-4 py-2 cursor-pointer hover:bg-white hover:text-black">
+        <a className="text-white bg-transparent border border-white px-4 py-2 cursor-pointer hover:bg-white hover:text-black" href="/sepratepage">
           See More{" "}
         </a>
       </div>
