@@ -5,8 +5,6 @@ import Navbar from "./Components/Navbar";
 import ProductList from "./Components/ProductList";
 import Stat from "./Components/Stat";
 import CardDisplay from "./Components/CardDisplay";
-import LocationSection from "./Components/LocationSection";
-import ContactForm from "./Components/ContactForm";
 
 const App = () => {
   return (
@@ -15,6 +13,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <ProductList />
+      <ProductDescription />
       <Stat />
       <CardDisplay />
       <LocationSection />
