@@ -195,12 +195,14 @@ import React from "react";
 
 const ContactForm = () => {
   return (
-    <div className="h-screen bg-black">
+    <div className="h-screen bg-black font-sans">
       <div className="pt-10 md:pt-6">
         <div className="p-4 md:p-8">
-          <h1 className="text-white text-center pb-8 font-light text-4xl md:text-5xl lg:text-6xl">
-            Contact Me
-          </h1>
+          <div className="text-center mb-8">
+            <h1 className="text-white font-sans text-4xl font-normal text-wrap sm:text-6xl">
+              Get in Touch with us
+            </h1>
+          </div>
           <form className="flex flex-col items-center">
             <div className="md:w-3/4 lg:w-2/3 xl:w-1/2">
               <div className="flex flex-col md:flex-row">
