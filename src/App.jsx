@@ -1,10 +1,8 @@
 import React from "react";
-import Hero from "./Components/Hero";
-import Footer from "./Components/Footer";
-import Navbar from "./Components/Navbar";
-import ProductList from "./Components/ProductList";
-import Stat from "./Components/Stat";
-import CardDisplay from "./Components/CardDisplay";
+import Home from "./Components/Home";
+import SepratePage from "./Components/SepratePage";
+
+import {BrowserRouter,Route,Routes} from 'react-router-dom'
 
 const App = () => {
   return (
