@@ -18,7 +18,7 @@ function Hero() {
     return () => clearInterval(intervalId);
   }, [backgroundImages]);
 
-  const houseName = ["Chetan House", "Chirag House", "Lassi House"]; // Name of the houses
+  const houseName = ["Chetan House", "Chirag House", "Aryan House"]; // Name of the houses
   const housePrices = ["$500,000", "$700,000", "$600,000"]; // Prices of the houses
 
   return (
