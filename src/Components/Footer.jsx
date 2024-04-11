@@ -23,7 +23,8 @@ function Footer() {
           <div className="md:w-[316px]">
             <p className="text-[18px] font-medium text-white">
               <h1 className="text-white font-extrabold">
-                <span className="text-rose-600">YOUR</span>LOGO
+                {/* <span className="text-rose-600">YOUR</span>LOGO */}
+                <img src="/images/blackleaf.jpeg" className="w-14" />
               </h1>
             </p>
             <p className="mt-[18px] text-[15px] font-normal text-white/[80%]">

@@ -12,10 +12,10 @@ function Navbar() {
       <header className="bg-black">
         <div className="mx-auto max-w-screen-xl py-4 font-2xl px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center">
-            <div className="flex items-center">
+            <div className="flex items-center ml-6">
               <a className="block text-white font-bold" href="#">
                 <span className="sr-only">Home</span>
-                <p>THE LOGO</p>
+                <img src="/images/blackleaf.jpeg" className="w-12" />
                 {/* <svg
                   className="h-8"
                   viewBox="0 0 28 24"

@@ -16,13 +16,12 @@ const Home = () => {
         {/* <h3 className="bg-blue-400 p-3">hi this chetan</h3> */}
         <Navbar />
         <Hero />
-        <ProductList />
+        {/* <ProductList /> */}
         <ProductDescription />
         <Stat />
         <CardDisplay />
         <ContactForm />
         <LocationSection />
-
         <Footer />
       </div>
     </>
