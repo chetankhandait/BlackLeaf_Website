@@ -2,7 +2,7 @@ function Stat() {
   return (
     <div>
       <div className="flex text-center">
-        <h1 className="text-white">How much custmer we serve</h1>
+        {/* <h1 className="text-white">How much custmer we serve</h1> */}
       </div>
 
       <section

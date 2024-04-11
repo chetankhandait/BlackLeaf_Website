@@ -1,6 +1,8 @@
+import { Link } from "react-router-dom";
+
 function ProductDescription() {
   return (
-    <div>
+    <div className="hidden">
       <section className="font-sans">
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
           <header className="text-left ">
@@ -11,7 +13,7 @@ function ProductDescription() {
 
           <ul className="mt-8 grid grid-cols-1 gap-4 lg:grid-cols-3">
             <li>
-              <a href="#" className="group relative block">
+              <Link href="#" className="group relative block">
                 <img
                   src="https://framerusercontent.com/images/kTRu1wIVz7alwImsIzvTljL2YD0.jpg?scale-down-to=2048"
                   alt=""
@@ -27,7 +29,7 @@ function ProductDescription() {
                     Shop Now
                   </span>
                 </div>
-              </a>
+              </Link>
             </li>
 
             <li>

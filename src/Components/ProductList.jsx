@@ -1,36 +1,13 @@
-// function ProductList() {
-//   return (
-//     <div>
-//       <article className="relative isolate min-h-screen flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 mx-4">
-//         <img
-//           src="https://images.unsplash.com/photo-1513584684374-8bab748fbf90?q=80&w=2065&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-//           alt="University of Southern California"
-//           className="absolute inset-0 h-full w-full object-cover"
-//         />
-//         <div>
-//           <h3 className="z-10 mt-3 text-3xl font-bold text-white">Paris</h3>
-//           <div className="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-gray-300">
-//             City of love
-//           </div>
-//           <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40">
-//             <h1>chirag</h1>
-//           </div>
-//         </div>
-//       </article>
-//     </div>
-//   );
-// }
-
-// export default ProductList;
+ 
 function ProductList() {
   return (
     <div>
       <article className="relative min-h-screen flex flex-col justify-end overflow-hidden rounded-2xl mx-4 bg-gray-900 text-white">
-        <img
+        {/* <img
           src="https://images.unsplash.com/photo-1513584684374-8bab748fbf90?q=80&w=2065&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="University of Southern California"
           className="absolute inset-0 w-full h-full object-cover rounded-2xl"
-        />
+        /> */}
         <div className="flex flex-col justify-between h-full p-8">
           <div>
             <h3 className="text-3xl font-bold">Paris</h3>
