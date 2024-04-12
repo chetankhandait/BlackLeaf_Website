@@ -191,55 +191,306 @@
 // };
 
 // export default ContactForm;
-import React from "react";
+// import React from "react";
 
-const ContactForm = () => {
+// const ContactForm = () => {
+//   return (
+//     <div className="h-screen bg-black font-sans">
+//       <div className="pt-10 md:pt-6">
+//         <div className="p-4 md:p-8">
+//           <div className="text-center mb-8">
+//             <h1 className="text-white font-sans text-4xl font-normal text-wrap sm:text-6xl">
+//               Get in Touch with us
+//             </h1>
+//           </div>
+//           <form className="flex flex-col items-center">
+//             <div className="md:w-3/4 lg:w-2/3 xl:w-1/2">
+//               <div className="flex flex-col md:flex-row">
+//                 <input
+//                   id="name"
+//                   type="text"
+//                   className="my-2 py-2 px-4 rounded-md bg-gray-900 text-gray-300 w-full md:w-1/2 md:mr-2 outline-none focus:ring-2 focus:ring-blue-600"
+//                   placeholder="Name"
+//                 />
+//                 <input
+//                   id="email"
+//                   type="email"
+//                   className="my-2 py-2 px-4 rounded-md bg-gray-900 text-gray-300 w-full md:w-1/2 md:ml-2 outline-none focus:ring-2 focus:ring-blue-600"
+//                   placeholder="Email"
+//                 />
+//               </div>
+//               <input
+//                 id="subject"
+//                 type="text"
+//                 placeholder="Subject"
+//                 className="my-2 py-2 px-4 rounded-md bg-gray-900 text-gray-300 w-full outline-none focus:ring-2 focus:ring-blue-600"
+//               />
+//               <textarea
+//                 id="message"
+//                 rows="5"
+//                 placeholder="Say Something"
+//                 className="my-2 py-2 px-4 rounded-md bg-gray-900 text-gray-300 w-full outline-none focus:ring-2 focus:ring-blue-600"
+//               ></textarea>
+//             </div>
+//             <button className="border-2 text-md mt-5 rounded-md py-2 px-4 bg-transparent hover:bg-white text-white transition duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-blue-600">
+//               Send Message
+//             </button>
+//           </form>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default ContactForm;
+import React from "react";
+// import {
+//   BiMap,
+//   BiEnvelope,
+//   BiPhone,
+//   BiFacebook,
+//   BiTwitter,
+//   BiInstagram,
+//   BiLinkedin,
+// } from "react-icons/bi";
+import {
+  FaEnvelope,
+  FaFacebook,
+  FaInstagram,
+  FaLinkedinIn,
+  FaMap,
+  FaPhone,
+  FaTwitter,
+} from "react-icons/fa";
+
+function ContactForm() {
   return (
-    <div className="h-screen bg-black font-sans">
-      <div className="pt-10 md:pt-6">
-        <div className="p-4 md:p-8">
-          <div className="text-center mb-8">
-            <h1 className="text-white font-sans text-4xl font-normal text-wrap sm:text-6xl">
-              Get in Touch with us
-            </h1>
-          </div>
-          <form className="flex flex-col items-center">
-            <div className="md:w-3/4 lg:w-2/3 xl:w-1/2">
-              <div className="flex flex-col md:flex-row">
-                <input
-                  id="name"
-                  type="text"
-                  className="my-2 py-2 px-4 rounded-md bg-gray-900 text-gray-300 w-full md:w-1/2 md:mr-2 outline-none focus:ring-2 focus:ring-blue-600"
-                  placeholder="Name"
-                />
-                <input
-                  id="email"
-                  type="email"
-                  className="my-2 py-2 px-4 rounded-md bg-gray-900 text-gray-300 w-full md:w-1/2 md:ml-2 outline-none focus:ring-2 focus:ring-blue-600"
-                  placeholder="Email"
-                />
+    <section className="py-10 bg-black from-fuchsia-600 to-blue-600 sm:py-16 lg:py-24 font-sans">
+      <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+        <div className="max-w-2xl mx-auto text-center">
+          <h2 className="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">
+            Contact us
+          </h2>
+          <p className="max-w-xl mx-auto mt-4 text-base leading-relaxed text-white">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis.
+          </p>
+        </div>
+
+        <div className="max-w-6xl mx-auto mt-12 overflow-hidden bg-white rounded-md shadow-md lg:mt-20">
+          <div className="grid items-stretch grid-cols-1 lg:grid-cols-5">
+            <div className="lg:col-span-3">
+              <div className="p-6 sm:p-10">
+                <h3 className="text-2xl font-semibold text-black">
+                  Send us a message
+                </h3>
+
+                <form action="#" method="POST" className="mt-8">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-4">
+                    <div>
+                      <label
+                        htmlFor=""
+                        className="text-base font-medium text-gray-900"
+                      >
+                        {" "}
+                        Your name{" "}
+                      </label>
+                      <div className="mt-2.5 relative">
+                        <input
+                          type="text"
+                          name=""
+                          id=""
+                          placeholder=""
+                          className="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 border border-gray-200 rounded-md bg-gray-50 focus:outline-none focus:border-blue-600 focus:bg-white caret-blue-600"
+                        />
+                      </div>
+                    </div>
+
+                    <div>
+                      <label
+                        htmlFor=""
+                        className="text-base font-medium text-gray-900"
+                      >
+                        {" "}
+                        Your email{" "}
+                      </label>
+                      <div className="mt-2.5 relative">
+                        <input
+                          type="email"
+                          name=""
+                          id=""
+                          placeholder=""
+                          className="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 border border-gray-200 rounded-md bg-gray-50 focus:outline-none focus:border-blue-600 focus:bg-white caret-blue-600"
+                        />
+                      </div>
+                    </div>
+
+                    <div>
+                      <label
+                        htmlFor=""
+                        className="text-base font-medium text-gray-900"
+                      >
+                        {" "}
+                        Phone number{" "}
+                      </label>
+                      <div className="mt-2.5 relative">
+                        <input
+                          type="tel"
+                          name=""
+                          id=""
+                          placeholder=""
+                          className="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 border border-gray-200 rounded-md bg-gray-50 focus:outline-none focus:border-blue-600 focus:bg-white caret-blue-600"
+                        />
+                      </div>
+                    </div>
+
+                    <div>
+                      <label
+                        htmlFor=""
+                        className="text-base font-medium text-gray-900"
+                      >
+                        {" "}
+                        Company name{" "}
+                      </label>
+                      <div className="mt-2.5 relative">
+                        <input
+                          type="text"
+                          name=""
+                          id=""
+                          placeholder=""
+                          className="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 border border-gray-200 rounded-md bg-gray-50 focus:outline-none focus:border-blue-600 focus:bg-white caret-blue-600"
+                        />
+                      </div>
+                    </div>
+
+                    <div className="sm:col-span-2">
+                      <label
+                        htmlFor=""
+                        className="text-base font-medium text-gray-900"
+                      >
+                        {" "}
+                        Message{" "}
+                      </label>
+                      <div className="mt-2.5 relative">
+                        <textarea
+                          name=""
+                          id=""
+                          placeholder=""
+                          className="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 border border-gray-200 rounded-md resize-y bg-gray-50 focus:outline-none focus:border-blue-600 focus:bg-white caret-blue-600"
+                          rows="4"
+                        ></textarea>
+                      </div>
+                    </div>
+
+                    <div className="sm:col-span-2">
+                      <button
+                        type="submit"
+                        className="inline-flex items-center justify-center w-full px-4 py-4 mt-2 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md focus:outline-none hover:bg-blue-700 focus:bg-blue-700"
+                      >
+                        Send
+                      </button>
+                    </div>
+                  </div>
+                </form>
               </div>
-              <input
-                id="subject"
-                type="text"
-                placeholder="Subject"
-                className="my-2 py-2 px-4 rounded-md bg-gray-900 text-gray-300 w-full outline-none focus:ring-2 focus:ring-blue-600"
-              />
-              <textarea
-                id="message"
-                rows="5"
-                placeholder="Say Something"
-                className="my-2 py-2 px-4 rounded-md bg-gray-900 text-gray-300 w-full outline-none focus:ring-2 focus:ring-blue-600"
-              ></textarea>
             </div>
-            <button className="border-2 text-md mt-5 rounded-md py-2 px-4 bg-transparent hover:bg-white text-white transition duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-blue-600">
-              Send Message
-            </button>
-          </form>
+
+            <div className="bg-gray-100 lg:col-span-2">
+              <div className="h-full p-6 sm:p-10">
+                <div className="flex flex-col justify-between h-full">
+                  <div>
+                    <h4 className="text-2xl font-semibold text-black">
+                      Contact info
+                    </h4>
+
+                    <div className="mt-8 space-y-7">
+                      <div className="flex items-start">
+                        <FaMap className="flex-shrink-0 text-black w-7 h-7" />
+                        <span className="block ml-3 text-base text-gray-900">
+                          {" "}
+                          8502 Preston Rd. Inglewood, Maine 98380, USA{" "}
+                        </span>
+                      </div>
+
+                      <div className="flex items-start">
+                        <FaEnvelope className="flex-shrink-0 text-black w-7 h-7" />
+                        <span className="block ml-3 text-base text-gray-900">
+                          {" "}
+                          kenzi.lawson@example.com{" "}
+                        </span>
+                      </div>
+
+                      <div className="flex items-start">
+                        <FaPhone className="flex-shrink-0 text-black w-7 h-7" />
+                        <div className="ml-3">
+                          <span className="block text-base text-gray-900">
+                            {" "}
+                            (316) 555-0116{" "}
+                          </span>
+                          <span className="block mt-1 text-base text-gray-900">
+                            {" "}
+                            (316) 555-0116{" "}
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="mt-8 lg:mt-auto">
+                    <hr className="border-gray-200" />
+                    <div className="flex items-center justify-between mt-7">
+                      <p className="text-lg font-semibold text-black">
+                        Follow us on
+                      </p>
+
+                      <ul className="flex items-center justify-end space-x-3">
+                        <li>
+                          <a
+                            href="#"
+                            title=""
+                            className="flex items-center justify-center text-gray-800 transition-all duration-200 bg-transparent border border-gray-300 rounded-full w-7 h-7 focus:bg-blue-600 hover:text-white focus:text-white hover:bg-blue-600 hover:border-blue-600 focus:border-blue-600"
+                          >
+                            <FaFacebook className="w-4 h-4" />
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                            title=""
+                            className="flex items-center justify-center text-gray-800 transition-all duration-200 bg-transparent border border-gray-300 rounded-full w-7 h-7 focus:bg-blue-600 hover:text-white focus:text-white hover:bg-blue-600 hover:border-blue-600 focus:border-blue-600"
+                          >
+                            <FaTwitter className="w-4 h-4" />
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                            title=""
+                            className="flex items-center justify-center text-gray-800 transition-all duration-200 bg-transparent border border-gray-300 rounded-full w-7 h-7 focus:bg-blue-600 hover:text-white focus:text-white hover:bg-blue-600 hover:border-blue-600 focus:border-blue-600"
+                          >
+                            <FaInstagram className="w-4 h-4" />
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                            title=""
+                            className="flex items-center justify-center text-gray-800 transition-all duration-200 bg-transparent border border-gray-300 rounded-full w-7 h-7 focus:bg-blue-600 hover:text-white focus:text-white hover:bg-blue-600 hover:border-blue-600 focus:border-blue-600"
+                          >
+                            <FaLinkedinIn className="w-4 h-4" />
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   );
-};
+}
 
 export default ContactForm;
