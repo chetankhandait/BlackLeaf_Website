@@ -128,7 +128,7 @@ import React from "react";
 const Testimonial = () => {
   return (
     <div
-      className="text-gray-600 dark:text-gray-300 pt-8 dark:bg-gray-900 font-sans"
+      className="text-gray-600 dark:text-gray-300 pt-12 dark:bg-gray-900 font-sans"
       id="reviews"
     >
       <div className="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
@@ -155,21 +155,19 @@ const Testimonial = () => {
               />
               <div>
                 <h6 className="text-lg font-medium text-gray-700 dark:text-white">
-                  Daniella Doe
+                  Sarabjit Singh
                 </h6>
                 <p className="text-sm text-gray-500 dark:text-gray-300">
-                  Mobile dev
+                  Buyer (4-BHK flat)
                 </p>
               </div>
             </div>
             <p className="mt-8">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
-              aliquid quo eum quae quos illo earum ipsa doloribus nostrum minus
-              libero aspernatur laborum cum, a suscipit, ratione ea totam ullam!
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Architecto laboriosam deleniti aperiam ab veniam sint non cumque
-              quis tempore cupiditate. Sint libero voluptas veniam at
-              reprehenderit, veritatis harum et rerum.
+              The level of professionalism exhibited by 7 Dimensions is
+              commendable. They truly understand the market, ensuring that every
+              decision is well-informed. Their dedication to client satisfaction
+              is evident in the excellent service we received. Highly
+              recommended for anyone looking for flats in Mohali.
             </p>
           </div>
 
