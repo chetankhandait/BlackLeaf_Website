@@ -1,7 +1,9 @@
+import { FeaturedImageGallery } from "./FeaturedImageGallery";
+
 function Description() {
   return (
     <div>
-      <h2>chirag</h2>
+      <FeaturedImageGallery />
     </div>
   );
 }
