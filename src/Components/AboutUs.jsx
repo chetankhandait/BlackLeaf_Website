@@ -9,6 +9,11 @@ const AboutUs = () => {
 
   return (
     <div className="bg-black font-sans">
+      <div className="text-center">
+        <h1 className="text-white text-center  font-sans text-4xl  font-normal text-wrap sm:text-6xl pb-6">
+          About Our Company
+        </h1>
+      </div>
       {/* <h1 className="text-5xl py-7 text-center font-serif underline mb-8 text-[#076253] shadow-slate-600 text-heading">
         About Us
       </h1> */}
