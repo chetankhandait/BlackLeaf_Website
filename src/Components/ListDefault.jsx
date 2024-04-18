@@ -480,14 +480,14 @@ export function ListDefault() {
   };
 
   return (
-    <div className="flex  justify-center flex-col">
-      <div className="max-w-3xl bg-gray-200 shadow-md mt-4 flex justify-center items-center ">
+    <div className="flex justify-center flex-col">
+      <div className="max-w-3xl bg-black text-white shadow-md mt-4 flex justify-center items-center ">
         <ul className="list-none p-0 flex">
           <li
-            className={`py-3 px-4 first:border-t cursor-pointer ${
+            className={`py-3 px-4   cursor-pointer ${
               activeTab === "description"
-                ? "border-b bg-white"
-                : "hover:border-b hover:bg-white"
+                ? "border-b bg-gray "
+                : " hover:border-b hover:bg-gray "
             }`}
             onClick={() => handleTabClick("description")}
           >
@@ -496,8 +496,8 @@ export function ListDefault() {
           <li
             className={`py-3 px-4 cursor-pointer ${
               activeTab === "address"
-                ? "border-b bg-white"
-                : "hover:border-b hover:bg-white"
+                ? "border-b bg-gray"
+                : "hover:border-b hover:bg-gray"
             }`}
             onClick={() => handleTabClick("address")}
           >
@@ -506,8 +506,8 @@ export function ListDefault() {
           <li
             className={`py-3 px-4 cursor-pointer ${
               activeTab === "details"
-                ? "border-b bg-white"
-                : "hover:border-b hover:bg-white"
+                ? "border-b bg-gray"
+                : "hover:border-b hover:bg-gray"
             }`}
             onClick={() => handleTabClick("details")}
           >
@@ -516,8 +516,8 @@ export function ListDefault() {
           <li
             className={`py-3 px-4 cursor-pointer ${
               activeTab === "feature"
-                ? "border-b bg-white"
-                : "hover:border-b hover:bg-white"
+                ? "border-b bg-gray"
+                : "hover:border-b hover:bg-gray"
             }`}
             onClick={() => handleTabClick("feature")}
           >

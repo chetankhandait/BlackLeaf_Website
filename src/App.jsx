@@ -7,7 +7,7 @@ const App = () => {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 3000);
+    }, 4500);
   }, []);
   return (
     <div className="loader">
@@ -18,9 +18,9 @@ const App = () => {
           id="preloaderdiv"
         >
           <img
-            src="/images/loader.jpeg"
+            src="/images/Y1OP.gif"
             alt=""
-            className="w-[156px] invert"
+            className="w-[156px]  "
           />
           <h2 className="text-[28px] font-mooli font-medium">Blackleaf Properties</h2>
         </div>
