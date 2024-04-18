@@ -7,7 +7,7 @@ const SepratePage = () => {
   return (
     <div>
       <FeaturedImageGallery />
-      <ListDefault />
+      <ListDefault  />
     </div>
   );
 };
