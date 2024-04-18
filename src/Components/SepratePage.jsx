@@ -6,7 +6,7 @@ import { ListDefault } from "./ListDefault";
 // import Content from "./Content";
 const SepratePage = () => {
   return (
-    <div>
+    <div className="bg-black">
       <FeaturedImageGallery />
       <ListDefault />
     </div>

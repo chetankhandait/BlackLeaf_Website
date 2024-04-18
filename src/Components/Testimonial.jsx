@@ -128,7 +128,7 @@ import React from "react";
 const Testimonial = () => {
   return (
     <div
-      className="text-gray-600 dark:text-gray-300 pt-12 dark:bg-gray-900 font-sans"
+      className="text-gray-600 dark:text-gray-300  dark:bg-gray-900 pt-12 font-sans"
       id="reviews"
     >
       <div className="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
