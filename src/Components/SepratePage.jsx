@@ -9,7 +9,6 @@ const SepratePage = () => {
     <div>
       <FeaturedImageGallery />
       <ListDefault />
-      <Content />
     </div>
   );
 };
