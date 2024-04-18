@@ -227,6 +227,7 @@ export function ListDefault() {
       case "address":
         return (
           <div className="w-full sm:w-2/3 overflow-hidden bg-gray-900 shadow sm:rounded-lg p-1 sm:m-4">
+            {/* <div className="max-w-2xl overflow-hidden bg-white shadow sm:rounded-lg flex flex-col space-y-4"></div> */}
             <div className="px-4 py-5 sm:px-6">
               <h3 className="text-lg font-medium leading-6 text-white">
                 User database
@@ -284,9 +285,186 @@ export function ListDefault() {
         );
       case "details":
         return (
-          <div>
-            <h2>Details</h2>
-            <p>Placeholder for details content...</p>
+          <div className="sm:w-2/3">
+            {/* <h1 className="text-white">chirag</h1> */}
+            <div className="w-full sm:w-2/3 overflow-hidden bg-gray-900 shadow sm:rounded-lg p-1 sm:m-4">
+              {/* <div className="max-w-2xl overflow-hidden bg-white shadow sm:rounded-lg flex flex-col space-y-4"></div> */}
+              <div className="px-4 py-5 sm:px-6">
+                <h3 className="text-lg font-medium leading-6 text-white">
+                  User database
+                </h3>
+                <p className="max-w-2xl mt-1 text-sm text-white">
+                  Details and informations about user.
+                </p>
+              </div>
+              <div className="border-t border-gray-200 p-4">
+                <dl>
+                  <div className="px-4 py-5 bg-gray-800 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                    <dt className="text-lg font-medium text-white"> City</dt>
+                    <dd className="mt-1 text-sm text-white sm:mt-0 sm:col-span-2">
+                      Zirkapur
+                    </dd>
+                  </div>
+                  <div className="px-4 py-5 bg-gray-800 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                    <dt className="text-lg font-medium text-white">State</dt>
+                    <dd className="mt-1 text-sm text-white sm:mt-0 sm:col-span-2">
+                      Punjab
+                    </dd>
+                  </div>
+                  <div className="px-4 py-5 bg-gray-800 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                    <dt className="text-lg font-medium text-white">
+                      Zip/Postal Code
+                    </dt>
+                    <dd className="mt-1 text-sm text-white sm:mt-0 sm:col-span-2">
+                      140306
+                    </dd>
+                  </div>
+                  <div className="px-4 py-5 bg-gray-800 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                    <dt className="text-lg font-medium text-white">Country</dt>
+                    <dd className="mt-1 text-sm text-white sm:mt-0 sm:col-span-2">
+                      India
+                    </dd>
+                  </div>
+                  <div className="px-4 py-5 bg-gray-800 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                    <dt className="text-lg font-medium text-white">
+                      Area/Location
+                    </dt>
+                    <dd className="mt-1 text-sm text-white sm:mt-0 sm:col-span-2">
+                      Patiala Road, Zirakpur
+                    </dd>
+                  </div>
+                  <div className="px-4 py-5 bg-gray-800 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                    <dt className="text-lg font-medium text-white">Address</dt>
+                    <dd className="mt-1 text-sm text-white sm:mt-0 sm:col-span-2">
+                      Trishla City High Ground Road, Patiala Rd, Zirakpur,
+                      Punjab 140603
+                    </dd>
+                  </div>
+                </dl>
+              </div>
+            </div>
+            <div className="flex sm:flex-row flex-col h-full px-8 w-full ">
+              <div className=" shadow-md  p-4 mx-auto max-w-sm mt-16 w-full h-full bg-gray-900">
+                {/* <h2 className="text-xl font-semibold mb-4">Top Users</h2> */}
+                <ul>
+                  <li className="flex items-center justify-between py-5 border-b border-gray-300">
+                    <div className="flex items-center">
+                      {/* <span className="text-lg font-semibold mr-4">1</span> */}
+                      <span className="text-white font-semibold">
+                        Items Included
+                      </span>
+                    </div>
+                    <span className="text-green-500 font-semibold">
+                      Microwave
+                    </span>
+                  </li>
+                  <li className="flex items-center justify-between py-5 border-b border-gray-300">
+                    <div className="flex items-center">
+                      {/* <span className="text-lg font-semibold mr-4">1</span> */}
+                      <span className="text-white font-semibold">
+                        Items Included
+                      </span>
+                    </div>
+                    <span className="text-green-500 font-semibold">
+                      Microwave
+                    </span>
+                  </li>
+                  <li className="flex items-center justify-between py-5 border-b border-gray-300">
+                    <div className="flex items-center">
+                      {/* <span className="text-lg font-semibold mr-4">1</span> */}
+                      <span className="text-white font-semibold">
+                        Items Included
+                      </span>
+                    </div>
+                    <span className="text-green-500 font-semibold">
+                      Microwave
+                    </span>
+                  </li>
+                  <li className="flex items-center justify-between py-5 border-b border-gray-300">
+                    <div className="flex items-center">
+                      {/* <span className="text-lg font-semibold mr-4">1</span> */}
+                      <span className="text-white font-semibold">
+                        Items Included
+                      </span>
+                    </div>
+                    <span className="text-green-500 font-semibold">
+                      Microwave
+                    </span>
+                  </li>
+                  <li className="flex items-center justify-between py-5 border-b border-gray-300">
+                    <div className="flex items-center">
+                      {/* <span className="text-lg font-semibold mr-4">1</span> */}
+                      <span className="text-white font-semibold">
+                        Items Included
+                      </span>
+                    </div>
+                    <span className="text-green-500 font-semibold">
+                      Microwave
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <div className=" shadow-md  p-4 mx-auto max-w-sm sm:mt-16 w-full h-full bg-gray-900">
+                {/* <h2 className="text-xl font-semibold mb-4">Top Users</h2> */}
+                <ul>
+                  <li className="flex items-center justify-between py-5 border-b border-gray-300">
+                    <div className="flex items-center">
+                      {/* <span className="text-lg font-semibold mr-4">1</span> */}
+                      <span className="text-white font-semibold">
+                        Items Included
+                      </span>
+                    </div>
+                    <span className="text-green-500 font-semibold">
+                      Microwave
+                    </span>
+                  </li>
+                  <li className="flex items-center justify-between py-5 border-b border-gray-300">
+                    <div className="flex items-center">
+                      {/* <span className="text-lg font-semibold mr-4">1</span> */}
+                      <span className="text-white font-semibold">
+                        Items Included
+                      </span>
+                    </div>
+                    <span className="text-green-500 font-semibold">
+                      Microwave
+                    </span>
+                  </li>
+                  <li className="flex items-center justify-between py-5 border-b border-gray-300">
+                    <div className="flex items-center">
+                      {/* <span className="text-lg font-semibold mr-4">1</span> */}
+                      <span className="text-white font-semibold">
+                        Items Included
+                      </span>
+                    </div>
+                    <span className="text-green-500 font-semibold">
+                      Microwave
+                    </span>
+                  </li>
+                  <li className="flex items-center justify-between py-5 border-b border-gray-300">
+                    <div className="flex items-center">
+                      {/* <span className="text-lg font-semibold mr-4">1</span> */}
+                      <span className="text-white font-semibold">
+                        Items Included
+                      </span>
+                    </div>
+                    <span className="text-green-500 font-semibold">
+                      Microwave
+                    </span>
+                  </li>
+                  <li className="flex items-center justify-between py-5 border-b border-gray-300">
+                    <div className="flex items-center">
+                      {/* <span className="text-lg font-semibold mr-4">1</span> */}
+                      <span className="text-white font-semibold">
+                        Items Included
+                      </span>
+                    </div>
+                    <span className="text-green-500 font-semibold">
+                      Microwave
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         );
       case "feature":
