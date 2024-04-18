@@ -7,7 +7,7 @@ function Card() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 w-full px-6">
         <div className="relative mx-auto w-full">
           <a
-            href="#"
+            href="http://localhost:5173/sepratepage/:title"
             className="relative inline-block duration-300 ease-in-out transition-transform transform hover:-translate-y-2 w-full"
           >
             <div className="shadow p-4 rounded-lg bg-gray-800">
