@@ -238,19 +238,19 @@ export function ListDefault() {
             <div className="border-t border-gray-200 p-4">
               <dl>
                 <div className="px-4 py-5 bg-gray-800 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                  <dt className="text-sm font-medium text-white"> City</dt>
+                  <dt className="text-lg font-medium text-white"> City</dt>
                   <dd className="mt-1 text-sm text-white sm:mt-0 sm:col-span-2">
                     Zirkapur
                   </dd>
                 </div>
                 <div className="px-4 py-5 bg-gray-800 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                  <dt className="text-sm font-medium text-white">State</dt>
+                  <dt className="text-lg font-medium text-white">State</dt>
                   <dd className="mt-1 text-sm text-white sm:mt-0 sm:col-span-2">
                     Punjab
                   </dd>
                 </div>
                 <div className="px-4 py-5 bg-gray-800 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                  <dt className="text-sm font-medium text-white">
+                  <dt className="text-lg font-medium text-white">
                     Zip/Postal Code
                   </dt>
                   <dd className="mt-1 text-sm text-white sm:mt-0 sm:col-span-2">
@@ -258,13 +258,13 @@ export function ListDefault() {
                   </dd>
                 </div>
                 <div className="px-4 py-5 bg-gray-800 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                  <dt className="text-sm font-medium text-white">Country</dt>
+                  <dt className="text-lg font-medium text-white">Country</dt>
                   <dd className="mt-1 text-sm text-white sm:mt-0 sm:col-span-2">
                     India
                   </dd>
                 </div>
                 <div className="px-4 py-5 bg-gray-800 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                  <dt className="text-sm font-medium text-white">
+                  <dt className="text-lg font-medium text-white">
                     Area/Location
                   </dt>
                   <dd className="mt-1 text-sm text-white sm:mt-0 sm:col-span-2">
@@ -272,7 +272,7 @@ export function ListDefault() {
                   </dd>
                 </div>
                 <div className="px-4 py-5 bg-gray-800 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                  <dt className="text-sm font-medium text-white">Address</dt>
+                  <dt className="text-lg font-medium text-white">Address</dt>
                   <dd className="mt-1 text-sm text-white sm:mt-0 sm:col-span-2">
                     Trishla City High Ground Road, Patiala Rd, Zirakpur, Punjab
                     140603
@@ -303,7 +303,7 @@ export function ListDefault() {
 
   return (
     <div className="flex  justify-center flex-col">
-      <div className="max-w-full bg-gray-200 shadow-md mt-4 flex justify-center items-center">
+      <div className="max-w-3xl bg-gray-200 shadow-md mt-4 flex justify-center items-center ">
         <ul className="list-none p-0 flex">
           <li
             className={`py-3 px-4 first:border-t cursor-pointer ${
