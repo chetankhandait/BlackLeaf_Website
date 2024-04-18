@@ -196,8 +196,9 @@ export function FeaturedImageGallery() {
             <img
               onClick={() => setActive(imgelink)}
               src={imgelink}
-              className="h-24 max-w-full cursor-pointer rounded-lg object-cover object-center"
+              className="h-24 max-w-full cursor-pointer rounded-lg object-cover object-center "
               alt="gallery-image"
+              loading="lazy"
             />
           </div>
         ))}
