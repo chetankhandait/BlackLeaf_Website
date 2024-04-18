@@ -16,13 +16,13 @@ export function ListDefault() {
     switch (activeTab) {
       case "description":
         return (
-          <div className="font-sans w-full sm:w-2/3   text-white ">
+          <div className="font-sans w-full sm:w-2/3  m-2 rounded-md text-[#dcedfa]   ">
             <section>
               <div className="flex flex-col items-start   max-w-7xl p-4 w-full">
                 <div className="flex flex-col w-full max-w-3xl  text-left prose-blue">
                   <div className="w-full ">
                     <div className="text-2xl sm:text-4xl  font-bold pb-2">
-                      <h1>
+                      <h1 className="text-[#728994]">
                         Relax and Enjoy the peaceful charm of a 3 BHK home at
                         Trishla City!
                       </h1>
@@ -302,7 +302,7 @@ export function ListDefault() {
   };
 
   return (
-    <div className="flex justify-center flex-col">
+    <div className="flex justify-center flex-col p">
       <div className="max-w-3xl bg-black text-white shadow-md mt-4 flex justify-center items-center ">
         <ul className="list-none p-0 flex">
           <li
