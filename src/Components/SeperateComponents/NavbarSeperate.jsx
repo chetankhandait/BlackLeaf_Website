@@ -19,8 +19,8 @@ const NavbarSeperate = () => {
                   spy={true}
                   smooth={true}
                   offset={-90}
-                  duration={500}
-                  className=" block py-2 pl-3 pr-4   rounded lg:bg-transparent  text-gray-100  dark:text-white text-lg cursor-pointer"
+                  duration={100}
+                  className=" block py-2 pl-3 pr-4   hover:text-purple-800 rounded lg:bg-transparent  text-gray-100  dark:text-white text-lg cursor-pointer"
                 >
                   About
                 </Link>
@@ -31,9 +31,9 @@ const NavbarSeperate = () => {
                   to="overview"
                   spy={true}
                   smooth={true}
-                  offset={-100}
-                  duration={500}
-                  className="block py-2 pl-3 pr-4   rounded lg:bg-transparent  text-gray-100  dark:text-white text-lg cursor-pointer"
+                  offset={-90}
+                  duration={100}
+                  className="block py-2 pl-3 pr-4   rounded lg:bg-transparent hover:text-purple-800 text-gray-100  dark:text-white text-lg cursor-pointer"
                 >
                   Overview
                 </Link>
