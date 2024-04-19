@@ -4,7 +4,7 @@
 @media screen and (max-width: 840px) {
   .active {
     background: blueviolet;
-    color: whitesmoke;
+    color: white;
     border-radius: 5px;
   }
 }
