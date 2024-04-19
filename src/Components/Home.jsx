@@ -16,13 +16,13 @@ const Home = () => {
   return (
     <>
       <div className="bg-black  ">
-        {/* <h3 className="bg-blue-400 p-3">hi this chetan</h3> */}
-        {/* <Navbar /> */}
+      
+      
         <Hero />
-        {/* <ProductList /> */}
+         
         <AboutUs />
         <ProductDescription />
-        {/* <Stat /> */}
+        
         <FeatureSection />
         <CardDisplay />
         <Testimonial />

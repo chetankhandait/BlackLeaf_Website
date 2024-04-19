@@ -700,54 +700,54 @@
 //     }
 //   };
 
-//   return (
-//     <div className="flex justify-center flex-col p">
-//       <div className="max-w-3xl bg-black text-white shadow-md mt-4 flex justify-center items-center ">
-//         <ul className="list-none p-0 flex">
-//           <li
-//             className={`py-3 px-4   cursor-pointer ${
-//               activeTab === "description"
-//                 ? "border-b bg-gray "
-//                 : " hover:border-b hover:bg-gray "
-//             }`}
-//             onClick={() => handleTabClick("description")}
-//           >
-//             Description
-//           </li>
-//           <li
-//             className={`py-3 px-4 cursor-pointer ${
-//               activeTab === "address"
-//                 ? "border-b bg-gray"
-//                 : "hover:border-b hover:bg-gray"
-//             }`}
-//             onClick={() => handleTabClick("address")}
-//           >
-//             Address
-//           </li>
-//           <li
-//             className={`py-3 px-4 cursor-pointer ${
-//               activeTab === "details"
-//                 ? "border-b bg-gray"
-//                 : "hover:border-b hover:bg-gray"
-//             }`}
-//             onClick={() => handleTabClick("details")}
-//           >
-//             Details
-//           </li>
-//           <li
-//             className={`py-3 px-4 cursor-pointer ${
-//               activeTab === "feature"
-//                 ? "border-b bg-gray"
-//                 : "hover:border-b hover:bg-gray"
-//             }`}
-//             onClick={() => handleTabClick("feature")}
-//           >
-//             Feature
-//           </li>
-//         </ul>
-//       </div>
-//       <div className="mt-4  sm:flex  ">
-//         {renderTabContent()}
+  return (
+    <div className="flex justify-center flex-col p">
+      <div className="max-w-3xl bg-black text-white shadow-md mt-4 flex justify-center items-center ">
+        <ul className="list-none p-0 flex">
+          <li
+            className={`py-3 px-4   cursor-pointer ${
+              activeTab === "description"
+                ? "border-b bg-gray "
+                : " hover:border-b hover:bg-gray "
+            }`}
+            onClick={() => handleTabClick("description")}
+          >
+            Description
+          </li>
+          <li
+            className={`py-3 px-4 cursor-pointer ${
+              activeTab === "address"
+                ? "border-b bg-gray"
+                : "hover:border-b hover:bg-gray"
+            }`}
+            onClick={() => handleTabClick("address")}
+          >
+            Address
+          </li>
+          <li
+            className={`py-3 px-4 cursor-pointer ${
+              activeTab === "details"
+                ? "border-b bg-gray"
+                : "hover:border-b hover:bg-gray"
+            }`}
+            onClick={() => handleTabClick("details")}
+          >
+            Details
+          </li>
+          <li
+            className={`py-3 px-4 cursor-pointer ${
+              activeTab === "feature"
+                ? "border-b bg-gray"
+                : "hover:border-b hover:bg-gray"
+            }`}
+            onClick={() => handleTabClick("feature")}
+          >
+            Feature
+          </li>
+        </ul>
+      </div>
+      <div className="mt-4  sm:flex  ">
+        {renderTabContent()}
 
 //         <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
 //           <div className="mx-auto max-w-lg">
