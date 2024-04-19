@@ -1,17 +1,18 @@
 import React, { useState } from "react";
-import Data from "../Data/data.js";
 import { TiTickOutline } from "react-icons/ti";
 import { TiTick } from "react-icons/ti";
 
-export function ListDefault() {
-  // console.log(Data);
+export function ListDefault(prop) {
+  console.log(prop);
+  const { ...data } = prop;
+  console.log(data);
   const [activeTab, setActiveTab] = useState("description");
-
+     
   const handleTabClick = (tab) => {
     setActiveTab(tab);
   };
 
-  const { ...x } = Data;
+   
 
   // console.log(x);
   const renderTabContent = () => {
@@ -19,7 +20,7 @@ export function ListDefault() {
     switch (activeTab) {
       case "description":
         return (
-          <div className="font-sans w-full sm:w-2/3  m-2 rounded-md text-[#dcedfa]   ">
+          <div className="font-sans w-full sm:w-2/3  m-2 rounded-md text-[#dcedfa]">
             <section>
               <div className="flex flex-col items-start   max-w-7xl p-4 w-full">
                 <div className="flex flex-col w-full max-w-3xl  text-left prose-blue">
@@ -28,6 +29,7 @@ export function ListDefault() {
                       <h1 className="text-[#728994]">
                         Relax and Enjoy the peaceful charm of a 3 BHK home at
                         Trishla City!
+                        texting dynamic route:{data.title}
                       </h1>
                     </div>
                     <div className="text-sm sm:text-2xl  font-semibold pb-8">
@@ -753,7 +755,7 @@ export function ListDefault() {
         <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-lg">
             <h1 className="text-center text-2xl font-bold text-indigo-600 sm:text-3xl">
-              Get started today
+              Testing dynamic route : 
             </h1>
 
             <p className="mx-auto mt-4 max-w-md text-center text-gray-500">
