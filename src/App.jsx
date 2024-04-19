@@ -7,7 +7,7 @@ const App = () => {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 4500);
+    }, 400);
   }, []);
   return (
     <div className="loader">

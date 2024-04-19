@@ -61,15 +61,16 @@ const Data = [
     category: "Category",
     title: "Chirag Gupta",
     description: "Oceanfront Avenue, Seaside Sanctuary",
-    price: "$22000",
+    price: "₹26.5L",
+    pricepersqfeet:"3000/sqfeet",
     address: [
       {
-        lane: "",
-        city: "",
-        state: "",
-        pincode: "",
+        lane: "Main Market, Lambakheda ",
+        city: "Bhopall",
+        state: "MP",
+        pincode: "462022",
         area: "",
-        country: "",
+        country: "India",
         gmap: "",
       },
     ],
@@ -194,7 +195,8 @@ const Data = [
     category: "Category",
     title: "CHetan",
     description: "Oceanfront Avenue, Seaside Sanctuary",
-    price: "$22000",
+    price: "₹ 26.6L",
+    pricepersqfeet:"₹2000/sqfeet",
     address: [
       {
         lane: "",
