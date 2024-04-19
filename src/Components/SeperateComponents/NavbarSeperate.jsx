@@ -20,7 +20,7 @@ const NavbarSeperate = () => {
                   smooth={true}
                   offset={-90}
                   duration={100}
-                  className=" block py-2 pl-3 pr-4   hover:text-purple-800 rounded lg:bg-transparent  text-gray-100  dark:text-white text-lg cursor-pointer"
+                  className=" block py-2 pl-3 pr-4   hover:text-purple-800 rounded lg:bg-transparent text-gray-100  dark:text-white text-lg cursor-pointer"
                 >
                   About
                 </Link>
