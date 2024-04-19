@@ -285,7 +285,7 @@ export function ListDefault() {
         );
       case "details":
         return (
-          <div className="sm:w-2/3">
+          <div className="w-full sm:w-2/3">
             {/* <h1 className="text-white">chirag</h1> */}
             <div className="w-full sm:w-2/3 overflow-hidden bg-gray-900 shadow sm:rounded-lg p-1 sm:m-4">
               {/* <div className="max-w-2xl overflow-hidden bg-white shadow sm:rounded-lg flex flex-col space-y-4"></div> */}
@@ -343,8 +343,8 @@ export function ListDefault() {
                 </dl>
               </div>
             </div>
-            <div className="flex sm:flex-row flex-col h-full px-8 w-full ">
-              <div className=" shadow-md  p-4 mx-auto max-w-sm mt-16 w-full h-full bg-gray-900">
+            <div className=" flex pb-3   sm:flex-row   flex-col   w-full ">
+              <div className=" shadow-md mb-3 rounded-md p-4 mx-auto max-w-sm mt-16 w-full h-full bg-gray-900">
                 {/* <h2 className="text-xl font-semibold mb-4">Top Users</h2> */}
                 <ul>
                   <li className="flex items-center justify-between py-5 border-b border-gray-300">
@@ -404,7 +404,7 @@ export function ListDefault() {
                   </li>
                 </ul>
               </div>
-              <div className=" shadow-md  p-4 mx-auto max-w-sm sm:mt-16 w-full h-full bg-gray-900">
+              <div className=" shadow-md  rounded-md p-4 mx-auto max-w-sm sm:mt-16 w-full h-full bg-gray-900">
                 {/* <h2 className="text-xl font-semibold mb-4">Top Users</h2> */}
                 <ul>
                   <li className="flex items-center justify-between py-5 border-b border-gray-300">
