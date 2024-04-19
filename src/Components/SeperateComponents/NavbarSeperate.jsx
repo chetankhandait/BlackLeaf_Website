@@ -4,7 +4,7 @@ import "./NavbarSeperate.css";
 
 const NavbarSeperate = () => {
   return (
-    <div className=" overflow-x-auto sticky top-0 z-50">
+    <div className=" overflow-x-auto bg-black sticky top-0 z-50">
       <nav className="sm:flex sm:justify sm:center-items-center bg-black border-gray-200 py-5 dark:bg-gray-900">
         <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
           <div
