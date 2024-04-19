@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import Data from "../Data/data.js";
+import { TiTickOutline } from "react-icons/ti";
+import { TiTick } from "react-icons/ti";
+
 export function ListDefault() {
   // console.log(Data);
   const [activeTab, setActiveTab] = useState("description");
@@ -469,9 +472,228 @@ export function ListDefault() {
         );
       case "feature":
         return (
-          <div>
-            <h2>Feature</h2>
-            <p>Placeholder for feature content...</p>
+          <div className="font-serif">
+            <section className="text-white  body-font">
+              <div className="container px-5 py-24 mx-auto">
+                <div className="flex px-8 p-4 flex-wrap -m-4">
+                  <div className=" p-1 sm:p-6  lg:w-1/3 sm:w-1/2 w-full">
+                    {/* <h2 className="font-medium title-font tracking-widest mb-4 text-sm text-center sm:text-left">
+                      SHOOTING STARS
+                    </h2> */}
+                    <nav className="flex flex-col  leading-10 sm:leading-10 -tracking-tighter sm:items-start sm:text-left text-center items-start -mb-1 space-y-2.5">
+                      <a>
+                        <span className="bg-transparent text-white border border-white w-6 h-6 mr-4 rounded-full inline-flex items-center justify-center">
+                          <TiTick />
+                        </span>
+                        <span className="text-md font-normal">
+                          24 hours Security
+                        </span>
+                      </a>
+                      <a>
+                        <span className="bg-transparent text-white border border-white w-6 h-6 mr-4 rounded-full inline-flex items-center justify-center">
+                          <TiTick />
+                        </span>
+                        <span className="text-md font-normal">
+                          24x7 Water Supply
+                        </span>
+                      </a>
+                      <a>
+                        <span className="bg-transparent text-white border border-white w-6 h-6 mr-4 rounded-full inline-flex items-center justify-center">
+                          <TiTick />
+                        </span>
+                        <span className="text-md font-normal">
+                          Basket Ball Court
+                        </span>
+                      </a>
+                      <a>
+                        <span className="bg-transparent text-white border border-white w-6 h-6 mr-4 rounded-full inline-flex items-center justify-center">
+                          <TiTick />
+                        </span>
+                        <span className="text-md font-normal">Club House</span>
+                      </a>
+                      <a>
+                        <span className="bg-transparent text-white border border-white w-6 h-6 mr-4 rounded-full inline-flex items-center justify-center">
+                          <TiTick />
+                        </span>
+                        <span className="text-md font-normal">
+                          Covered Parking
+                        </span>
+                      </a>
+                      <a>
+                        <span className="bg-transparent text-white border border-white w-6 h-6 mr-4 rounded-full inline-flex items-center justify-center">
+                          <TiTick />
+                        </span>
+                        <span className="text-md font-normal">
+                          Cricket Pitch
+                        </span>
+                      </a>
+                      <a>
+                        <span className="bg-transparent text-white border border-white w-6 h-6 mr-4 rounded-full inline-flex items-center justify-center">
+                          <TiTick />
+                        </span>
+                        <span className="text-md font-normal">
+                          Cycling/Jogging Track
+                        </span>
+                      </a>
+                      <a>
+                        <span className="bg-transparent text-white border border-white w-6 h-6 mr-4 rounded-full inline-flex items-center justify-center">
+                          <TiTick />
+                        </span>
+                        <span className="text-md font-normal">
+                          Fire Fighting
+                        </span>
+                      </a>
+                      <a>
+                        <span className="bg-transparent text-white border border-white w-6 h-6 mr-4 rounded-full inline-flex items-center justify-center">
+                          <TiTick />
+                        </span>
+                        <span className="text-md font-normal">Fountains</span>
+                      </a>
+
+                      {/* Other links */}
+                    </nav>
+                  </div>
+                  <div className=" p-1 sm:p-6 lg:w-1/3 sm:w-1/2 w-full">
+                    {/* <h2 className="font-medium title-font tracking-widest mb-4 text-sm text-center sm:text-left">
+                      THE 400 BLOWS
+                    </h2> */}
+                    <nav className="flex flex-col leading-10 -tracking-tighter sm:items-start sm:text-left text-center items-start -mb-1 space-y-2.5">
+                      <a>
+                        <span className="bg-transparent text-white border border-white w-6 h-6 mr-4 rounded-full inline-flex items-center justify-center">
+                          <TiTick />
+                        </span>
+                        <span className="text-md font-normal">
+                          Garbage Disposal
+                        </span>
+                      </a>
+                      <a>
+                        <span className="bg-transparent text-white border border-white w-6 h-6 mr-4 rounded-full inline-flex items-center justify-center">
+                          <TiTick />
+                        </span>
+                        <span className="text-md font-normal">
+                          Gated Community
+                        </span>
+                      </a>
+                      <a>
+                        <span className="bg-transparent text-white border border-white w-6 h-6 mr-4 rounded-full inline-flex items-center justify-center">
+                          <TiTick />
+                        </span>
+                        <span className="text-md font-normal">Gym</span>
+                      </a>
+                      <a>
+                        <span className="bg-transparent text-white border border-white w-6 h-6 mr-4 rounded-full inline-flex items-center justify-center">
+                          <TiTick />
+                        </span>
+                        <span className="text-md font-normal">
+                          Herbal Garden
+                        </span>
+                      </a>
+                      <a>
+                        <span className="bg-transparent text-white border border-white w-6 h-6 mr-4 rounded-full inline-flex items-center justify-center">
+                          <TiTick />
+                        </span>
+                        <span className="text-md font-normal">Intercom</span>
+                      </a>
+                      <a>
+                        <span className="bg-transparent text-white border border-white w-6 h-6 mr-4 rounded-full inline-flex items-center justify-center">
+                          <TiTick />
+                        </span>
+                        <span className="text-md font-normal">
+                          Leisure Garden
+                        </span>
+                      </a>
+                      <a>
+                        <span className="bg-transparent text-white border border-white w-6 h-6 mr-4 rounded-full inline-flex items-center justify-center">
+                          <TiTick />
+                        </span>
+                        <span className="text-md font-normal">
+                          Open Air Theatre
+                        </span>
+                      </a>
+                      <a>
+                        <span className="bg-transparent text-white border border-white w-6 h-6 mr-4 rounded-full inline-flex items-center justify-center">
+                          <TiTick />
+                        </span>
+                        <span className="text-md font-normal">
+                          Open Parking
+                        </span>
+                      </a>
+                      <a>
+                        <span className="bg-transparent text-white border border-white w-6 h-6 mr-4 rounded-full inline-flex items-center justify-center">
+                          <TiTick />
+                        </span>
+                        <span className="text-md font-normal">Parks</span>
+                      </a>
+
+                      {/* Other links */}
+                    </nav>
+                  </div>
+                  <div className=" p-1 sm:p-6   lg:w-1/3 sm:w-1/2 w-full">
+                    {/* <h2 className="font-medium title-font tracking-widest mb-4 text-sm text-center sm:text-left">
+                      THE CATALYZER
+                    </h2> */}
+                    <nav className="flex flex-col leading-10 -tracking-tighter sm:items-start sm:text-left text-center items-start -mb-1 space-y-2.5">
+                      <a>
+                        <span className="bg-transparent text-white border border-white w-6 h-6 mr-4 rounded-full inline-flex items-center justify-center">
+                          <TiTick />
+                        </span>
+                        <span className="text-md font-normal">Play Area</span>
+                      </a>
+                      <a>
+                        <span className="bg-transparent text-white border border-white w-6 h-6 mr-4 rounded-full inline-flex items-center justify-center">
+                          <TiTick />
+                        </span>
+                        <span className="text-md font-normal">
+                          Power Backup
+                        </span>
+                      </a>
+                      <a>
+                        <span className="bg-transparent text-white border border-white w-6 h-6 mr-4 rounded-full inline-flex items-center justify-center">
+                          <TiTick />
+                        </span>
+                        <span className="text-md font-normal">
+                          Rain Water Harvesting
+                        </span>
+                      </a>
+                      <a>
+                        <span className="bg-transparent text-white border border-white w-6 h-6 mr-4 rounded-full inline-flex items-center justify-center">
+                          <TiTick />
+                        </span>
+                        <span className="text-md font-normal">
+                          Sewage Treatment
+                        </span>
+                      </a>
+                      <a>
+                        <span className="bg-transparent text-white border border-white w-6 h-6 mr-4 rounded-full inline-flex items-center justify-center">
+                          <TiTick />
+                        </span>
+                        <span className="text-md font-normal">
+                          Swimming Pool
+                        </span>
+                      </a>
+                      <a>
+                        <span className="bg-transparent text-white border border-white w-6 h-6 mr-4 rounded-full inline-flex items-center justify-center">
+                          <TiTick />
+                        </span>
+                        <span className="text-md font-normal">
+                          Vastu Compliant
+                        </span>
+                      </a>
+                      <a>
+                        <span className="bg-transparent text-white border border-white w-6 h-6 mr-4 rounded-full inline-flex items-center justify-center">
+                          <TiTick />
+                        </span>
+                        <span className="text-md font-normal">
+                          Visitors Parking
+                        </span>
+                      </a>
+
+                      {/* Other links */}
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </section>
           </div>
         );
       default:
