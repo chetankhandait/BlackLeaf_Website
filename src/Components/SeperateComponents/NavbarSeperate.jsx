@@ -38,6 +38,32 @@ const NavbarSeperate = () => {
                   Overview
                 </Link>
               </li>
+              <li>
+                <Link
+                  activeClass="active"
+                  to="Floor plan"
+                  spy={true}
+                  smooth={true}
+                  offset={-90}
+                  duration={100}
+                  className="block py-2 pl-3 pr-4   rounded lg:bg-transparent hover:text-purple-800 text-gray-100  dark:text-white text-lg cursor-pointer"
+                >
+                  Floor plan
+                </Link>
+              </li>
+              <li>
+                <Link
+                  activeClass="active"
+                  to="locality"
+                  spy={true}
+                  smooth={true}
+                  offset={-90}
+                  duration={100}
+                  className="block py-2 pl-3 pr-4   rounded lg:bg-transparent hover:text-purple-800 text-gray-100  dark:text-white text-lg cursor-pointer"
+                >
+                  Locality
+                </Link>
+              </li>
               {/* Other list items */}
             </ul>
           </div>
