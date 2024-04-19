@@ -29,7 +29,7 @@ const App = () => {
           <BrowserRouter>
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/sepratepage/:title" element={<SepratePage />} />
+              <Route path="/sepratepage" element={<SepratePage />} />
             </Routes>
           </BrowserRouter>
         )
