@@ -1,0 +1,10 @@
+.active {
+  color: purple;
+}
+@media screen and (max-width: 840px) {
+  .active {
+    background: blueviolet;
+    color: whitesmoke;
+    border-radius: 5px;
+  }
+}
