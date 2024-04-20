@@ -1,7 +1,7 @@
 function AboutSeperate() {
   return (
     <div
-      className="font-sans w-full sm:w-2/3  m-2 rounded-md text-[#dcedfa] "
+      className="font-sans w-full sm:   m-2 rounded-md text-[#dcedfa] "
       id="about"
     >
       <section>

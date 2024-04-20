@@ -1,7 +1,7 @@
 function Overview() {
   return (
     <div
-      className="w-full sm:w-2/3 overflow-hidden bg-gray-900 shadow sm:rounded-lg p-1 sm:m-4 "
+      className="w-full sm:  overflow-hidden bg-gray-900 shadow sm:rounded-lg p-1 sm:m-4 "
       id="overview"
     >
       {/* <div className="max-w-2xl overflow-hidden bg-white shadow sm:rounded-lg flex flex-col space-y-4"></div> */}

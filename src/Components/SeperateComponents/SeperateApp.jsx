@@ -7,10 +7,10 @@ import Overview from "./Overview";
 
 function SeperateApp() {
   return (
-    <div>
+    <div className="">
       <NavbarSeperate />
       <div className="text-white flex justify-center">
-        <div className="flex flex-col items-start">
+        <div className="flex flex-col items-start max-w-3xl">
           <AboutSeperate />
           <Overview />
           <FloorPlan />
