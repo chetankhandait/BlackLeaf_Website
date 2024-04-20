@@ -374,7 +374,7 @@ import React from "react";
 
 const Form = () => {
   return (
-    <div className="max-w-md mx-auto mt-10 bg-white shadow-lg rounded-lg overflow-hidden h-full">
+    <div className="max-w-md mx-auto mt-10 bg-white shadow-lg rounded-lg overflow-hidden h-full w-full">
       <div className="text-2xl py-4 px-6 bg-gray-900 text-white text-center font-bold uppercase">
         Book an Appointment
       </div>
