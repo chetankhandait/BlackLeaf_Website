@@ -17,7 +17,7 @@ const Locality = () => {
         ></iframe>
       </div>
       <div>
-         <FaSchool />
+        <FaSchool />
       </div>
     </div>
   );

@@ -9,14 +9,14 @@ function SeperateApp() {
   return (
     <div className="">
       <NavbarSeperate />
-      <div className="text-white flex justify-center">
+      <div className="text-white sm:flex  sm:justify-center">
         <div className="flex flex-col items-start max-w-3xl">
           <AboutSeperate />
           <Overview />
           <FloorPlan />
           <Locality />
         </div>
-        <div className=" h-full sticky top-10 flex flex-col items-end">
+        <div className=" h-full sm:sticky top-10 flex flex-col items-end">
           <Form />
         </div>
       </div>
