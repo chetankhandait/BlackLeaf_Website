@@ -7,7 +7,7 @@ function AboutSeperate() {
 
   return (
     <div
-      className="font-sans w-full sm:   mb-2 rounded-md text-[#dcedfa]  pt-8 px-9"
+      className="font-serif w-full sm:   mb-2 rounded-md text-[#dcedfa]  pt-8 px-9"
       id="about"
     >
       {/* <section>
@@ -211,7 +211,10 @@ function AboutSeperate() {
           </div>
         </div>
       </section> */}
-      <div className="bg-gray-900 text-white px-6 py-8 text-center rounded-md leading-7 tracking-wide">
+      <div className="bg-gray-900 text-white px-4 py-8 text-center rounded-md leading-7 tracking-wide">
+        <div className="flex justify-start pb-8 text-xl font-bold">
+          <p>Zirkarpur city,Rawanda</p>
+        </div>
         <p>
           {showMore ? text : text.slice(0, 200) + "..."}
           <button
