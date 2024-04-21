@@ -1,7 +1,7 @@
 import AboutSeperate from "./AboutSeperate";
 import FloorPlan from "./FloorPlan";
 import Form from "./Form";
-import Locality from "./Locality";
+// import Locality from "./Locality";
 import NavbarSeperate from "./NavbarSeperate";
 import Overview from "./Overview";
 
@@ -14,7 +14,7 @@ function SeperateApp() {
           <AboutSeperate />
           <Overview />
           <FloorPlan />
-          <Locality />
+          {/* <Locality /> */}
         </div>
         <div className=" h-full sm:sticky top-10 flex flex-col items-end">
           <Form />

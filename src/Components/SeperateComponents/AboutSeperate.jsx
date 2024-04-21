@@ -1,10 +1,16 @@
+import { useState } from "react";
+
 function AboutSeperate() {
+  const [showMore, setShowMore] = useState(false);
+  const text =
+    "Text messaging, or texting, is the act of composing and sending electronic messages, typically consisting of alphabetic and numeric characters, between two or more users of mobile devices, desktops/laptops, or another type of compatible computer. Text messages may be sent over a cellular network or may also be sent via satellite or Internet connection.";
+
   return (
     <div
-      className="font-sans w-full sm:   m-2 rounded-md text-[#dcedfa] "
+      className="font-sans w-full sm:   mb-2 rounded-md text-[#dcedfa]  pt-8 px-9"
       id="about"
     >
-      <section>
+      {/* <section>
         <div className="flex flex-col items-start   max-w-7xl p-4 w-full">
           <div className="flex flex-col w-full max-w-3xl  text-left prose-blue">
             <div className="w-full ">
@@ -204,7 +210,18 @@ function AboutSeperate() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
+      <div className="bg-gray-900 text-white px-6 py-8 text-center rounded-md leading-7 tracking-wide">
+        <p>
+          {showMore ? text : text.slice(0, 200) + "..."}
+          <button
+            className="text-blue-500 hover:underline focus:outline-none"
+            onClick={() => setShowMore(!showMore)}
+          >
+            {showMore ? "Read Less" : "Read More"}
+          </button>
+        </p>
+      </div>
     </div>
   );
 }
