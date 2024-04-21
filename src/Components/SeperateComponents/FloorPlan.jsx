@@ -8,7 +8,7 @@ const FloorPlan = () => {
   };
 
   return (
-    <div id='Floor plan' className=' bg-[#111827] m-2 rounded-md p-2   '>
+    <div id='Floor plan' className='font-serif w-full sm:   mb-2 rounded-md text-[#dcedfa]  pt-8 px-9'>
       <h2>City Price & Floor Plan</h2>
       <div className="tabs">
         <button className={activeTab === 'tab1' ? 'active' : ''} onClick={() => handleTabClick('tab1')}>Tab 1</button>
@@ -20,10 +20,10 @@ const FloorPlan = () => {
           <img src="/images/image.png" alt="Floor Plan 1" className='rounded-md' />
         )}
         {activeTab === 'tab2' && (
-          <img src="/images/image.png" alt="Floor Plan 2" className='rounded-md'/>
+          <img src="/images/bg.png" alt="Floor Plan 2" className='rounded-md'/>
         )}
         {activeTab === 'tab3' && (
-          <img src="/images/image.png" alt="Floor Plan 3" className='rounded-md'/>
+          <img src="/images/house.png" alt="Floor Plan 3" className='rounded-md'/>
         )}
       </div>
     </div>
